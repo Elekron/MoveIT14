@@ -33,3 +33,11 @@ mongoData/journal/j._0
 mongoData/local.0
 
 mongoData/mongod.lock
+
+mongoData/local.0
+
+mongoData/local.ns
+
+mongoData/mongod.lock
+
+mongoData/journal/j._0
