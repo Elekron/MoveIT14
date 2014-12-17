@@ -1,23 +1,26 @@
 
-GreenWear/.bowerrc
-GreenWear/.buildignore
-GreenWear/.editorconfig
-GreenWear/.gitattributes
-GreenWear/.gitignore
-GreenWear/.travis.yml
-GreenWear/.yo-rc.json
-GreenWear/bower.json
-GreenWear/e2e
-GreenWear/Gruntfile.js
-GreenWear/karma.conf.js
-GreenWear/package.json
-GreenWear/protractor.conf.js
+/GreenWear/.bowerrc
+/GreenWear/.buildignore
+/GreenWear/.editorconfig
+/GreenWear/.gitattributes
+/GreenWear/.gitignore
+/GreenWear/.travis.yml
+/GreenWear/.yo-rc.json
+/GreenWear/bower.json
+/GreenWear/e2e
+/GreenWear/Gruntfile.js
+/GreenWear/karma.conf.js
+/GreenWear/package.json
+/GreenWear/protractor.conf.js
 
-GreenWear/server/app.js
-GreenWear/server/auth
-GreenWear/server/components
-GreenWear/server/config
-GreenWear/server/routes.js
-GreenWear/server/views
+/GreenWear/server/app.js
+/GreenWear/server/auth
+/GreenWear/server/components
+/GreenWear/server/config
+/GreenWear/server/routes.js
+/GreenWear/server/views
 
-GreenWear//mongoData
+/GreenWear/mongoData
+/mongoData/*
+/mongoData/
+
