@@ -1,11 +1,10 @@
-
-
 GreenWeb/*
 
-!GreenWeb/client/
+!GreenWeb/client/*
 
 GreenWeb/client/bower_components/*
 
 GreenWeb/client/components/modal/*
 GreenWeb/client/components/mongoose-error/*
+
 GreenWeb/client/index.html
