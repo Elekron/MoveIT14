@@ -1,5 +1,4 @@
 
-<<<<<<< Updated upstream
 GreenWear/.bowerrc
 GreenWear/.buildignore
 GreenWear/.editorconfig
@@ -19,19 +18,6 @@ GreenWear/server/auth
 GreenWear/server/components
 GreenWear/server/config
 GreenWear/server/routes.js
-/Users/andreasbolzyk/Documents/Github/MoveIT14/GreenWear/server/views
+GreenWear/server/views
 
-/Users/andreasbolzyk/Documents/Github/MoveIT14/mongoData
-=======
-mongoData/journal/j._0
-
-*._0
-
-mongoData/journal/j._0
-
-mongoData/local.0
-
-mongoData/local.ns
-
-mongoData/mongod.lock
->>>>>>> Stashed changes
+mongoData
