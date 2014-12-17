@@ -62,15 +62,3 @@ GreenWear/server/config/local.env.sample.js
 GreenWear/.yo-rc.json
 
 GreenWear/bower.json
-
-GreenWear/karma.conf.js
-
-GreenWear/server/config/express.js
-
-GreenWear/server/config/environment/index.js
-
-GreenWear/server/config/local.env.sample.js
-
-GreenWear/bower.json
-
-GreenWear/.yo-rc.json
