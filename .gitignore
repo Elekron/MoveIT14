@@ -41,3 +41,6 @@ mongoData/local.ns
 mongoData/mongod.lock
 
 mongoData/journal/j._0
+
+mongoData/journal/lsn
+
