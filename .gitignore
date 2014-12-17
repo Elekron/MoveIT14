@@ -8,3 +8,5 @@ GreenWeb/client/components/modal/*
 GreenWeb/client/components/mongoose-error/*
 
 GreenWeb/client/index.html
+
+!GreenWeb/server/api/*
