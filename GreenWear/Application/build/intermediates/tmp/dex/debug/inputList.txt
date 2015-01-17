@@ -1,0 +1,6 @@
+/Users/andreasbolzyk/AndroidStudioProjects/GreenWear/Application/build/intermediates/classes/debug
+/Users/andreasbolzyk/AndroidStudioProjects/GreenWear/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-0310bf7ea5adb9e8f24e30166a2eed28f3e5a28e.jar
+/Users/andreasbolzyk/AndroidStudioProjects/GreenWear/Application/build/intermediates/pre-dexed/debug/classes-237eb8878c07e106eb70900126672b3194cdaa34.jar
+/Users/andreasbolzyk/AndroidStudioProjects/GreenWear/Application/build/intermediates/pre-dexed/debug/classes-2948b55c663cb8bee8dbe27346dca8b65c3e1bc5.jar
+/Users/andreasbolzyk/AndroidStudioProjects/GreenWear/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-cf31125226b7260278e274192733817bf5fd4f11.jar
+/Users/andreasbolzyk/AndroidStudioProjects/GreenWear/Application/build/intermediates/pre-dexed/debug/classes-9e9c6d678a495b916d620ad66cc18cadd7ae3798.jar
