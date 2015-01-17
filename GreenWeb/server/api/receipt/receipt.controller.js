@@ -5,12 +5,12 @@ var Receipt = require('./receipt.model');
 
 // Get list of receipts
 exports.index = function(req, res) {
-  console.log("Hejjjjjj");
   Receipt.find(function (err, receipts) {
     if(err) { return handleError(res, err); }
     return res.json(200, receipts);
   });
 };
+
 
 
 // Get a single receipt
@@ -24,11 +24,25 @@ exports.show = function(req, res) {
 };
 */
 
+exports.showReciepts = function(req, res) {
+  Receipt.find().populate('products').exec(function(err, receipt) {
+    if(err) { return handleError(res, err); }
+    if(!receipt) { return res.send(404); }
+    res.json(receipt);
+  });
+};
+
+exports.show = function(req, res) {
+  Receipt.findById(req.params.id).populate('products').exec(function(err, receipt) {
+    if(err) { return handleError(res, err); }
+    if(!receipt) { return res.send(404); }
+    res.json(receipt);
+  });
+};
+
 
 
 exports.show = function(req, res) {
-  console.log("Heyyyyyy");
-  console.log(req.params.id);
   Receipt.findById(req.params.id).populate('products').exec(function(err, receipt) {
     if(err) { return handleError(res, err); }
     if(!receipt) { return res.send(404); }

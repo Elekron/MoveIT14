@@ -13,6 +13,8 @@ GreenWeb/client/index.html
 
 GreenWeb/server/config/
 
+!GreenWeb/server/config/seed.js
+
 GreenWeb/server/auth/
 
 GreenWeb/server/api/.DS_Store
