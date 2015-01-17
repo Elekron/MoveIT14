@@ -2,11 +2,10 @@
 
 angular.module('greenWebApp')
   .controller('MainCtrl', function ($scope, $http) {
-    $scope.awesomeThings = [];
 
-    $http.get('/api/things').success(function(awesomeThings) {
-      $scope.awesomeThings = awesomeThings;
-    });
+    $scope.getReciepts = [];
+    $scope.getProducts = [];
+
 
     $scope.addThing = function() {
       if($scope.newThing === '') {
@@ -19,4 +18,32 @@ angular.module('greenWebApp')
     $scope.deleteThing = function(thing) {
       $http.delete('/api/things/' + thing._id);
     };
+
+
+    $http.get('/api/receipts')
+    .success(function(reciepts){
+      $scope.getReciepts = reciepts;
+      console.log('Kvittots id ' + reciepts[0]._id);
+
+      $http.get('/api/products')
+      .success(function(products){
+        $scope.getProducts = products;
+        console.log('Produktens id '+products[0]._id);
+
+        $http.put('/api/receipts/' + $scope.getReciepts[0]._id,
+        {
+          products: $scope.getProducts[0]._id
+        })
+        .success(function(reciepts){
+          console.log("Hej det funkar");
+        })
+        .error(function(){});
+
+      })
+      .error(function(){});
+
+    })
+    .error(function(){});
+
+
   });
