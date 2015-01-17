@@ -9,4 +9,9 @@ GreenWeb/client/components/mongoose-error/*
 
 GreenWeb/client/index.html
 
+!GreenWeb/server/api/product/*
+!GreenWeb/server/api/product/
+
+!GreenWeb/server/api/*
+
 !GreenWeb/server/api/
