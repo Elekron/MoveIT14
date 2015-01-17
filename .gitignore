@@ -9,9 +9,38 @@ GreenWeb/client/components/mongoose-error/*
 
 GreenWeb/client/index.html
 
-!GreenWeb/server/api/product/*
-!GreenWeb/server/api/product/
+!GreenWeb/server/*
 
-!GreenWeb/server/api/*
+GreenWeb/server/config/
 
-!GreenWeb/server/api/
+GreenWeb/server/auth/
+
+GreenWeb/server/api/.DS_Store
+
+GreenWeb/server/.jshintrc-spec
+
+GreenWeb/server/.jshintrc
+
+GreenWeb/server/app.js
+
+GreenWeb/server/components/errors/index.js
+
+GreenWeb/server/views/404.html
+
+GreenWeb/server/api/user/user.model.spec.js
+
+GreenWeb/server/api/thing/thing.spec.js
+
+GreenWeb/server/api/thing/thing.model.js
+
+GreenWeb/server/api/thing/thing.controller.js
+
+GreenWeb/server/api/user/user.controller.js
+
+GreenWeb/server/api/user/index.js
+
+GreenWeb/server/api/thing/index.js
+
+GreenWeb/server/api/station/station.spec.js
+
+GreenWeb/server/api/receipt/receipt.spec.js
