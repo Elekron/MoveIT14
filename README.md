@@ -2,7 +2,7 @@ MoveIT14
 ========
 
 
-,,,Javascript
+```javascript
 /* 
  * Schema för produkter
  */
@@ -60,8 +60,7 @@ var UserSchema = new Schema({
   receipts: [{type: Schema.Types.ObjectId, ref: 'Receipt'}],
   coupons: Number
 });
-
-,,,
+```
 
 
 
