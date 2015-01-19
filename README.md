@@ -2,6 +2,7 @@ MoveIT14
 ========
 
 
+,,,Javascript
 /* 
  * Schema för produkter
  */
@@ -60,6 +61,7 @@ var UserSchema = new Schema({
   coupons: Number
 });
 
+,,,
 
 
 
