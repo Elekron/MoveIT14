@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main -->
+    <string name="app_name">GreenWearVersion2</string>
+    <string name="title_section1">Avatar</string>
+    <string name="title_section2">Shopping</string>
+    <string name="title_section3">Recycling</string>
+    <string name="title_section4">Statistics</string>
+    <string name="title_section5">Receipts</string>
+    <!--  -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- extra bar -->
+    <string name="action_example">Example action</string>
+    <string name="action_example1">Example action</string>
+    <string name="action_example2">Example action</string>
+    <string name="action_example3">Example action</string>
+    <string name="action_example4">Example action</string>
+    <string name="action_settings">Settings</string>
+    <!-- avatar -->
+    <string name="avatar_name">Jose Weaver</string>
+    <string name="avatar_score">Score: 1337</string>
+    <string name="zoom_">Add</string>
+    <!-- receipts -->
+    <string name="edit_message">Product</string>
+    <string name="button_add">Add</string>
+    <!-- store -->
+    <string name="store_notification_title_template">Welcome to %1$s</string>
+    <string name="store_notification_placeholder_text_template">Do you want %1$s to show offers?</string>
+    <!--  -->
+    <string name="product1_notification_title_template">Next Item %1$s</string>
+    <string name="product1_notification_placeholder_text_template">%1$s</string>
+    <!--  -->
+    <string name="product2_notification_title_template">Next item %1$s</string>
+    <string name="product2_notification_placeholder_text_template">Maybe Eco %1$s ?</string>
+    <!--  -->
+    <string name="checkout_notification_title_template">You have a eco-%1$s ?</string>
+    <string name="checkout_notification_placeholder_text_template">Use your eco-%1$s</string>
+    <!--  -->
+    <string name="facts_notification_title_template">%1$s 5 of 6 were good products</string>
+    <string name="facts_notification_placeholder_text_template">Nice! Your avatar is feeling happy. Check it out! %1$s: Also, you saved four trees in the rainforest </string>
+    <string name="title_activity_zoom"></string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

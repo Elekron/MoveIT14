@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:orientation="vertical"
+    android:background="#ffeee5">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:id="@+id/linearLayout">
+
+
+
+        <EditText android:id="@+id/edit_message"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add"
+            android:id="@+id/addList"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="40dp"
+        android:orientation="vertical"
+        android:layout_width="348dp"
+        android:layout_height="548dp"
+        android:background="@drawable/notebook_shopping">
+
+        <ListView
+            android:paddingLeft="20dp"
+            android:layout_width="246dp"
+            android:layout_height="400dp"
+            android:id="@+id/myListView"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/linearLayout"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>

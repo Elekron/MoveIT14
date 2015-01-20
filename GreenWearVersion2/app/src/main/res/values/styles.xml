@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme"
+        parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/ActionBarMyAppTheme</item>
+        <!--<item name="android:activatedBackgroundIndicator">@drawable/backgrundactonbar</item>-->
+        <!--<item name="android:state_activated">@drawable/backgrundactonbar</item>-->
+
+
+
+    </style>
+    <!-- ActionBar styles -->
+
+    <style name="ActionBarMyAppTheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/backgrundactonbar</item>
+    </style>
+
+
+</resources>
