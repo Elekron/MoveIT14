@@ -136,6 +136,12 @@ angular.module('greenWebApp')
         return currentUser.role === 'admin';
       },
 
+
+
+
+
+
+
       /**
        * Get auth token
        */
