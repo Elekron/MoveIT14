@@ -61,6 +61,22 @@ var UserSchema = new Schema({
   coupons: Number
 });
 ```
+Controllers
+
+```javascript
+/*
+ * Visa kvitton med produkter
+ */ 
+
+exports.showReciepts = function(req, res) {
+  Receipt.find().populate('products').exec(function(err, receipt) {
+    if(err) { return handleError(res, err); }
+    if(!receipt) { return res.send(404); }
+    res.json(receipt);
+  });
+};
+```
+
 
 
 
